@@ -33,7 +33,7 @@ This work presents Depth Anything, a highly practical solution for robust monocu
 ## Docker
 
 ```bash
-docker build -t depth-anything-image -f docker/Dockerfile .
+source docker/run.sh
 ```
 
 ## Features of Depth Anything
