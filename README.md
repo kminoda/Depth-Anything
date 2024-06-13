@@ -30,6 +30,12 @@ This work presents Depth Anything, a highly practical solution for robust monocu
 * **2024-01-22:** Paper, project page, code, models, and demo ([HuggingFace](https://huggingface.co/spaces/LiheYoung/Depth-Anything), [OpenXLab](https://openxlab.org.cn/apps/detail/yyfan/depth_anything)) are released.
 
 
+## Docker
+
+```bash
+docker build -t depth-anything-image -f docker/Dockerfile .
+```
+
 ## Features of Depth Anything
 
 ***If you need other features, please first check [existing community supports](#community-support).***
